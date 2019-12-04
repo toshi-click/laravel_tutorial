@@ -1,22 +1,22 @@
-# Created by https://www.gitignore.io/api/laravel
-# Edit at https://www.gitignore.io/?templates=laravel
-
-### Laravel ###
-src//vendor/
-src/node_modules/
-src/npm-debug.log
-src/yarn-error.log
-
-# Laravel 4 specific
-src/bootstrap/compiled.php
-src/storage/
-
-# Laravel 5 & Lumen specific
-src/public/storage
-src/public/hot
-src/storage/*.key
-src/.env
-src/Homestead.yaml
-src/Homestead.json
-
-# End of https://www.gitignore.io/api/laravel
+.vagrant*
+bin
+docker/docker
+.*.swp
+a.out
+*.orig
+build_src
+.flymake*
+.idea
+.DS_Store
+docs/_build
+docs/_static
+docs/_templates
+.gopath/
+.dotcloud
+*.test
+bundles/
+.hg/
+.git/
+vendor/pkg/
+pyenv
+Vagrantfile
